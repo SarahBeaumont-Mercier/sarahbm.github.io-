@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- =================================================================
+         MÉTADONNÉES | METADATA
+         ================================================================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <meta name="description" content="Sarah Beaumont-Mercier - Analyste en Cybersécurité | Cybersecurity Analyst - Portfolio">
+    <meta name="keywords" content="cybersécurité, cybersecurity, analyste, analyst, portfolio, CISSP, sécurité, security">
+    <meta name="author" content="Sarah Beaumont-Mercier">
+    
+    <!-- Titre | Title -->
+    <title>Sarah Beaumont-Mercier | Cybersécurité</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body class="lang-fr">
+    <!-- =================================================================
+         NAVIGATION
+         Barre de navigation fixe | Fixed navigation bar
+         ================================================================= -->
+    <nav class="navbar" role="navigation" aria-label="Navigation principale | Main navigation">
+        <div class="navbar__container container">
+            
+            <!-- Logo -->
+            <a href="#accueil" class="navbar__logo">SBM</a>
+            
+            <!-- Menu principal | Main menu -->
+            <ul class="navbar__menu">
+                <li>
+                    <a href="#apropos" class="navbar__link" data-fr="À propos" data-en="About">À propos</a>
+                </li>
+                <li>
+                    <a href="#competences" class="navbar__link" data-fr="Compétences" data-en="Skills">Compétences</a>
+                </li>
+                <li>
+                    <a href="#certifications" class="navbar__link" data-fr="Certifications" data-en="Certifications">Certifications</a>
+                </li>
+                <li>
+                    <a href="#projets" class="navbar__link" data-fr="Projets" data-en="Projects">Projets</a>
+                </li>
+                <li>
+                    <a href="#contact" class="navbar__link" data-fr="Contact" data-en="Contact">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Basculement de langue | Language toggle -->
+            <div class="lang-toggle">
+                <button class="lang-toggle__btn lang-toggle__btn--active" data-lang="fr" aria-label="Français">FR</button>
+                <button class="lang-toggle__btn" data-lang="en" aria-label="English">EN</button>
+            </div>
+            
+            <!-- Bouton menu mobile | Mobile menu button -->
+            <button class="navbar__toggle" aria-label="Menu" aria-expanded="false">
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+                <span class="navbar__toggle-bar"></span>
+            </button>
+            
+        </div>
+    </nav>
+ 
+    <!-- =================================================================
+         HERO
+         Section d'accueil principale | Main welcome section
+         ================================================================= -->
+    <header id="accueil" class="hero">
+        <div class="hero__content">
+            
+            <h1 class="hero__title">Sarah Beaumont-Mercier</h1>
+            
+            <p class="hero__subtitle" data-fr="Analyste en Cybersécurité" data-en="Cybersecurity Analyst">
+                Analyste en Cybersécurité
+            </p>
+            
+            <p class="hero__description" data-fr="Protéger les organisations par la vigilance, l'analyse et l'apprentissage continu." data-en="Protecting organizations through vigilance, analysis, and continuous learning.">
+                Protéger les organisations par la vigilance, l'analyse et l'apprentissage continu.
+            </p>
+            
+            <a href="#contact" class="btn btn--primary" data-fr="Me contacter" data-en="Contact me">
+                Me contacter
+            </a>
+            
+        </div>
+    </header>
+ 
+    <!-- =================================================================
+         CONTENU PRINCIPAL | MAIN CONTENT
+         ================================================================= -->
+    <main>
+        
+        <!-- =============================================================
+             À PROPOS | ABOUT
+             ============================================================= -->
+        <section id="apropos" class="section">
+            <div class="container">
+                
+                <h2 class="section__title" data-fr="À Propos" data-en="About">À Propos</h2>
+                
+                <div class="about__content">
+                    <p class="about__text" data-fr="Professionnelle en cybersécurité en devenir, passionnée par la protection des organisations et des personnes contre les menaces numériques. Actuellement en cours d'obtention du Certificat Professionnel Google Cybersecurity, je développe des compétences pratiques en détection des menaces, réponse aux incidents et opérations de sécurité." data-en="Aspiring cybersecurity professional passionate about protecting organizations and people from digital threats. Currently completing the Google Cybersecurity Professional Certificate, building hands-on skills in threat detection, incident response, and security operations.">
+                        Professionnelle en cybersécurité en devenir, passionnée par la protection des organisations et des personnes contre les menaces numériques. Actuellement en cours d'obtention du Certificat Professionnel Google Cybersecurity, je développe des compétences pratiques en détection des menaces, réponse aux incidents et opérations de sécurité.
+                    </p>
+                    
+                    <p class="about__text" data-fr="Je crois au principe de la défense en profondeur et à l'importance de la triade CIA (Confidentialité, Intégrité, Disponibilité) comme fondement de toutes les décisions de sécurité." data-en="I believe in the principle of defense in depth and the importance of the CIA triad (Confidentiality, Integrity, Availability) as the foundation of all security decisions.">
+                        Je crois au principe de la défense en profondeur et à l'importance de la triade CIA (Confidentialité, Intégrité, Disponibilité) comme fondement de toutes les décisions de sécurité.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+ 
+        <!-- =============================================================
+             COMPÉTENCES | SKILLS
+             Les 8 domaines CISSP | The 8 CISSP domains
+             ============================================================= -->
+        <section id="competences" class="section section--alt">
+            <div class="container">
+                
+                <h2 class="section__title" data-fr="Compétences" data-en="Skills">Compétences</h2>
+                
+                <!-- Sous-titre 8 domaines | 8 domains subtitle -->
+                <h3 class="skills__category-title" data-fr="Les 8 Domaines de Sécurité (CISSP)" data-en="The 8 Security Domains (CISSP)">
+                    Les 8 Domaines de Sécurité (CISSP)
+                </h3>
+                
+                <!-- Grille des domaines | Domains grid -->
+                <div class="skills__grid">
+                    
+                    <!-- Domaine 1 | Domain 1 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">1</span>
+                        <h4 class="skill-card__title" data-fr="Sécurité et Gestion des Risques" data-en="Security and Risk Management">
+                            Sécurité et Gestion des Risques
+                        </h4>
+                        <p class="skill-card__description" data-fr="Objectifs de sécurité, atténuation des risques, conformité, continuité des activités" data-en="Security goals, risk mitigation, compliance, business continuity">
+                            Objectifs de sécurité, atténuation des risques, conformité, continuité des activités
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 2 | Domain 2 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">2</span>
+                        <h4 class="skill-card__title" data-fr="Sécurité des Actifs" data-en="Asset Security">
+                            Sécurité des Actifs
+                        </h4>
+                        <p class="skill-card__description" data-fr="Classification des données, manipulation, rétention et destruction" data-en="Data classification, handling, retention, and destruction">
+                            Classification des données, manipulation, rétention et destruction
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 3 | Domain 3 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">3</span>
+                        <h4 class="skill-card__title" data-fr="Architecture de Sécurité" data-en="Security Architecture">
+                            Architecture de Sécurité
+                        </h4>
+                        <p class="skill-card__description" data-fr="Modèles de sécurité, conception de systèmes, cryptographie" data-en="Security models, system design, cryptography">
+                            Modèles de sécurité, conception de systèmes, cryptographie
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 4 | Domain 4 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">4</span>
+                        <h4 class="skill-card__title" data-fr="Sécurité Réseau" data-en="Network Security">
+                            Sécurité Réseau
+                        </h4>
+                        <p class="skill-card__description" data-fr="Architecture réseau, pare-feu, protocoles sécurisés" data-en="Network architecture, firewalls, secure protocols">
+                            Architecture réseau, pare-feu, protocoles sécurisés
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 5 | Domain 5 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">5</span>
+                        <h4 class="skill-card__title" data-fr="Gestion des Identités et Accès" data-en="Identity and Access Management">
+                            Gestion des Identités et Accès
+                        </h4>
+                        <p class="skill-card__description" data-fr="Authentification, autorisation, contrôle d'accès" data-en="Authentication, authorization, access control">
+                            Authentification, autorisation, contrôle d'accès
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 6 | Domain 6 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">6</span>
+                        <h4 class="skill-card__title" data-fr="Évaluation de Sécurité" data-en="Security Assessment">
+                            Évaluation de Sécurité
+                        </h4>
+                        <p class="skill-card__description" data-fr="Tests de vulnérabilité, tests d'intrusion, audits" data-en="Vulnerability testing, penetration testing, audits">
+                            Tests de vulnérabilité, tests d'intrusion, audits
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 7 | Domain 7 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">7</span>
+                        <h4 class="skill-card__title" data-fr="Opérations de Sécurité" data-en="Security Operations">
+                            Opérations de Sécurité
+                        </h4>
+                        <p class="skill-card__description" data-fr="Réponse aux incidents, surveillance, reprise après sinistre" data-en="Incident response, monitoring, disaster recovery">
+                            Réponse aux incidents, surveillance, reprise après sinistre
+                        </p>
+                    </div>
+                    
+                    <!-- Domaine 8 | Domain 8 -->
+                    <div class="skill-card">
+                        <span class="skill-card__number">8</span>
+                        <h4 class="skill-card__title" data-fr="Sécurité du Développement" data-en="Software Development Security">
+                            Sécurité du Développement
+                        </h4>
+                        <p class="skill-card__description" data-fr="Codage sécurisé, sécurité SDLC, revue de code" data-en="Secure coding, SDLC security, code review">
+                            Codage sécurisé, sécurité SDLC, revue de code
+                        </p>
+                    </div>
+                    
+                </div>
+                
+                <!-- Compétences techniques | Technical skills -->
+                <h3 class="skills__category-title" data-fr="Compétences Techniques" data-en="Technical Skills" style="margin-top: 3rem;">
+                    Compétences Techniques
+                </h3>
+                
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Linux</span>
+                    <span class="tech-tag">SIEM</span>
+                    <span class="tech-tag">IDS/IPS</span>
+                    <span class="tech-tag">Wireshark</span>
+                    <span class="tech-tag">TCP/IP</span>
+                    <span class="tech-tag">Firewalls</span>
+                    <span class="tech-tag">SPF/DKIM/DMARC</span>
+                    <span class="tech-tag">DNSSEC</span>
+                </div>
+                
+            </div>
+        </section>
+ 
+        <!-- =============================================================
+             CERTIFICATIONS
+             ============================================================= -->
+        <section id="certifications" class="section">
+            <div class="container">
+                
+                <h2 class="section__title" data-fr="Certifications" data-en="Certifications">Certifications</h2>
+                
+                <div class="skills__grid" style="grid-template-columns: repeat(2, 1fr);">
+                    
+                    <!-- Google Cybersecurity -->
+                    <div class="cert-card cert-card--progress">
+                        <span class="cert-card__badge" data-fr="En cours" data-en="In Progress">En cours</span>
+                        <h4 class="cert-card__title">Google Cybersecurity Professional Certificate</h4>
+                        <p class="cert-card__description" data-fr="Programme de 8 cours couvrant les fondamentaux de la sécurité, la détection des menaces, la réponse aux incidents, Python, SQL et les outils SIEM." data-en="8-course program covering security fundamentals, threat detection, incident response, Python, SQL, and SIEM tools.">
+                            Programme de 8 cours couvrant les fondamentaux de la sécurité, la détection des menaces, la réponse aux incidents, Python, SQL et les outils SIEM.
+                        </p>
+                    </div>
+                    
+                    <!-- CompTIA Security+ -->
+                    <div class="cert-card cert-card--planned">
+                        <span class="cert-card__badge" data-fr="Planifié" data-en="Planned">Planifié</span>
+                        <h4 class="cert-card__title">CompTIA Security+</h4>
+                        <p class="cert-card__description" data-fr="Certification standard de l'industrie pour les professionnels de la cybersécurité." data-en="Industry-standard certification for cybersecurity professionals.">
+                            Certification standard de l'industrie pour les professionnels de la cybersécurité.
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+ 
+        <!-- =============================================================
+             PROJETS | PROJECTS
+             ============================================================= -->
+        <section id="projets" class="section section--alt">
+            <div class="container">
+                
+                <h2 class="section__title" data-fr="Projets" data-en="Projects">Projets</h2>
+                
+                <div class="skills__grid" style="grid-template-columns: repeat(2, 1fr);">
+                    
+                    <!-- Projet 1: Infrastructure Email | Project 1: Email Infrastructure -->
+                    <div class="project-card">
+                        <h4 class="project-card__title" data-fr="Infrastructure de Sécurité Email" data-en="Email Security Infrastructure">
+                            Infrastructure de Sécurité Email
+                        </h4>
+                        <p class="project-card__description" data-fr="Configuration d'un système email professionnel avec sécurité de niveau entreprise : SPF, DKIM, DMARC, DNSSEC et enregistrements CAA. Démontre la compréhension des protocoles d'authentification email et de la sécurité DNS." data-en="Configured a professional email system with enterprise-grade security: SPF, DKIM, DMARC, DNSSEC, and CAA records. Demonstrates understanding of email authentication protocols and DNS security.">
+                            Configuration d'un système email professionnel avec sécurité de niveau entreprise : SPF, DKIM, DMARC, DNSSEC et enregistrements CAA. Démontre la compréhension des protocoles d'authentification email et de la sécurité DNS.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">Email Security</span>
+                            <span class="project-card__tag">DNS</span>
+                            <span class="project-card__tag">SPF/DKIM/DMARC</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Projet 2: À venir | Project 2: Coming soon -->
+                    <div class="project-card">
+                        <h4 class="project-card__title" data-fr="Plus de projets à venir" data-en="More projects coming soon">
+                            Plus de projets à venir
+                        </h4>
+                        <p class="project-card__description" data-fr="Actuellement en train de développer des labs pratiques et projets via TryHackMe, HackTheBox et le programme Google Cybersecurity." data-en="Currently building hands-on labs and projects through TryHackMe, HackTheBox, and the Google Cybersecurity program.">
+                            Actuellement en train de développer des labs pratiques et projets via TryHackMe, HackTheBox et le programme Google Cybersecurity.
+                        </p>
+                        <div class="project-card__tags">
+                            <span class="project-card__tag">TryHackMe</span>
+                            <span class="project-card__tag">HackTheBox</span>
+                            <span class="project-card__tag">Labs</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+ 
+        <!-- =============================================================
+             CONTACT
+             ============================================================= -->
+        <section id="contact" class="section">
+            <div class="container">
+                
+                <h2 class="section__title" data-fr="Contact" data-en="Contact">Contact</h2>
+                
+                <div class="about__content">
+                    <p class="about__text" data-fr="Je recherche actuellement des opportunités en cybersécurité. N'hésitez pas à me contacter !" data-en="I'm currently seeking opportunities in cybersecurity. Feel free to reach out!">
+                        Je recherche actuellement des opportunités en cybersécurité. N'hésitez pas à me contacter !
+                    </p>
+                    
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 2rem;">
+                        
+                        <a href="mailto:sarah@sarahbm.com" class="btn btn--outline">
+                            📧 sarah@sarahbm.com
+                        </a>
+                        
+                        <a href="https://github.com/sarahbm" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+                            🐙 GitHub
+                        </a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+    </main>
+ 
+    <!-- =================================================================
+         FOOTER
+         Pied de page | Footer
+         ================================================================= -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">
+                © 2025 Sarah Beaumont-Mercier. 
+                <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span>
+            </p>
+            <p class="footer__text" data-fr="Construit avec la sécurité en tête 🔐" data-en="Built with security in mind 🔐">
+                Construit avec la sécurité en tête 🔐
+            </p>
+        </div>
+    </footer>
+ 
+    <!-- =================================================================
+         SCRIPTS
+         ================================================================= -->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
